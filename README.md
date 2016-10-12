@@ -53,7 +53,7 @@ var mensaje = "Hola mundo";
 </html>
 ```
 
-#Tablas
+##Tablas
 
 Para crear una tabla, separamos las columnas con barras |, los atributos de la tabla (primera fila) se separan con guiones -, cada fila se crea en una nueva línea
 
@@ -62,4 +62,13 @@ Para crear una tabla, separamos las columnas con barras |, los atributos de la t
 | col 3 is      | right-aligned | $1600 |
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
+
+##Citas
+
+Para citar un texto, utilizamos un signo de mayor que > seguido del texto a citar.
+
+> Ya nada.
+> ym s'terces ton oot terces oht
+> esuac s'evol tahw I od od
+
 # TecnologiasWeb
