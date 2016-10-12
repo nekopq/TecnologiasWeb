@@ -35,8 +35,22 @@ Para colocar imágenes, usamos un signo de admiración ! seguido de corchetes [ 
 
 Para dar un formato de código a un texto, escribimos el texto dentro de 3 tildes invertidas, se puede especificar el lenguaje de programación del código al lado de las 3 primeras tildes invertidas.
 
+* Bloque de código en javascript
+
 ```javascript
 var mensaje = "Hola mundo";
+```
+
+* Bloque de código de una `consola`
+
+```
+> sudo apt-get update
+```
+
+* Bloque de código HTML
+```
+<html>
+</html>
 ```
 
 # TecnologiasWeb
