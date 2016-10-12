@@ -68,7 +68,31 @@ Para crear una tabla, separamos las columnas con barras |, los atributos de la t
 Para citar un texto, utilizamos un signo de mayor que > seguido del texto a citar.
 
 > Ya nada.
+
 > ym s'terces ton oot terces oht
+
 > esuac s'evol tahw I od od
+
+##Saltos de línea
+
+Para insertar un salto de línea, debemos escribir tres guiones ---
+
+Para insertar una línea horizontal, utilizamos 3 asteriscos
+
+***
+
+o 3 guiones
+
+---
+
+o 3 subguiones
+
+___
+
+##Videos de Youtube
+
+Uso de HTML dentro de markdown para linkear un video de youtube.
+
+<a href="https://www.youtube.com/watch?v=Ggl54g_BTso"><img src="http://vignette1.wikia.nocookie.net/littlest-pet-shop/images/5/55/Secret_Cupet_Sugar_Sprinkles.png/revision/latest?cb=20160510205455&path-prefix=es"></a>
 
 # TecnologiasWeb
