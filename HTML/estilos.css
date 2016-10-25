@@ -1,0 +1,33 @@
+html {
+    background-color: #687fd4;
+}
+
+body {
+    background-color: #6df311;
+}
+
+p {
+    background-color: red;
+}
+
+
+/* Por clase */
+
+.nombreClaseRojo {
+    background-color: red;
+}
+
+.nombreClaseAzul {
+    background-color: blue;
+}
+
+.nombreClaseAmarillo {
+    background-color: yellow;
+}
+
+
+/* por id */
+
+#parrafonegro {
+    background-color: black;
+}
