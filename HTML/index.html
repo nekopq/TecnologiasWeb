@@ -10,7 +10,7 @@
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <style>
-        .borde{
+        .borde {
             border: white solid 3px;
         }
     </style>
@@ -23,11 +23,34 @@
     <h2>Codigo</h2>
     <p>Código para algo: <code>&lt;img&gt;</code></p>
     <h3>User inputs con Bootstrap</h3>
-    <p>No está permitido por ejemplo el <kbd><kbd>ctrl</kbd> + <kbd>c</kbd></kbd> ni el <kbd><kbd>ctrl</kbd> + <kbd>v</kbd></kbd></p>
-    
+    <p>No está permitido por ejemplo el <kbd><kbd>ctrl</kbd> + <kbd>c</kbd></kbd> ni el <kbd><kbd>ctrl</kbd> + <kbd>v</kbd></kbd>
+    </p>
+
+    <h2>Forms</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-6">
+                <form>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <div class="input-group">
+                            <div class="input-group-addon">@</div>
+                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                            <div class="input-group-addon">~</div>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                </form>
+            </div>
+            <div class="col-sm-3"></div>
+        </div>
+    </div>
+
+
     <h2>Table</h2>
-    
-    <table>
+
+    <table class="table table-hover">
         <tr>
             <th>Una</th>
             <th>Cabecera</th>
@@ -40,12 +63,18 @@
             <td>aqui</td>
             <td>texto</td>
         </tr>
+        <tr>
+            <td>Otra</td>
+            <td>Fila</td>
+            <td>más</td>
+            <td>aquí</td>
+        </tr>
     </table>
-    
+
     <!-- .container-->
     <div class="container">
-      <!-- EMMET: col-md-4.borde*3>h2 -->
-       <div class="row" style="background-color:#b9e4ff;">
+        <!-- EMMET: col-md-4.borde*3>h2 -->
+        <div class="row" style="background-color:#b9e4ff;">
             <h1>Fila1</h1>
             <div class="col-md-4 borde">
                 <h2>Columna md 4 - 1</h2>
@@ -56,48 +85,48 @@
             <div class="col-md-4 borde">
                 <h2>Columna md 4 - 3</h2>
             </div>
-       </div>
-       
-       <div class="row" style="background-color:pink;">
-           <h1>Fila2</h1>
-           <div class="col-sm-3 borde">
-               <h2>col-sm-1</h2>
-           </div>
-           <div class="col-sm-3 borde">
-               <h2>col-sm-2</h2>
-           </div>
-           <div class="col-sm-3 borde">
-               <h2>col-sm-3</h2>
-           </div>
-           <div class="col-sm-3 borde">
-               <h2>col-sm-4</h2>
-           </div>
-       </div>
-       
-       <div class="row" style="background-color:#ffe1c8;">
-           <h1>Fila3</h1>
-           <div class="col-lg-6 borde">
-               <h2>col-lg-1</h2>
-           </div>
-           <div class="col-lg-6 borde">
-               <h2>col-lg-2</h2>
-           </div>
-       </div>
-       
-       <div class="row">
-           <div class="col-xs-2 borde">
-               <h2>col-xs-1</h2>
-           </div>
-           <div class="col-xs-5 borde">
-               <h2>col-xs-2</h2>
-           </div>
-           <div class="col-xs-5 borde">
-               <h2>col-xs-3</h2>
-           </div>
-       </div>
+        </div>
+
+        <div class="row" style="background-color:pink;">
+            <h1>Fila2</h1>
+            <div class="col-sm-3 borde">
+                <h2>col-sm-1</h2>
+            </div>
+            <div class="col-sm-3 borde">
+                <h2>col-sm-2</h2>
+            </div>
+            <div class="col-sm-3 borde">
+                <h2>col-sm-3</h2>
+            </div>
+            <div class="col-sm-3 borde">
+                <h2>col-sm-4</h2>
+            </div>
+        </div>
+
+        <div class="row" style="background-color:#ffe1c8;">
+            <h1>Fila3</h1>
+            <div class="col-lg-6 borde">
+                <h2>col-lg-1</h2>
+            </div>
+            <div class="col-lg-6 borde">
+                <h2>col-lg-2</h2>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-2 borde">
+                <h2>col-xs-1</h2>
+            </div>
+            <div class="col-xs-5 borde">
+                <h2>col-xs-2</h2>
+            </div>
+            <div class="col-xs-5 borde">
+                <h2>col-xs-3</h2>
+            </div>
+        </div>
         <h1>literally the best pet </h1>
     </div>
-    
+
     <p class="nombreClaseAmarillo">Twilight Barkle, the pink one not really important</p>
     <p class="nombreClaseRojo">terces tepuc si ym eman</p>
     <p id="parrafonegro">parrafo negro</p>
