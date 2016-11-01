@@ -7,11 +7,11 @@ Tema: Introducción a la Web
 #### Número de informe: 1
 
 ## Índice de Contenidos
-* <a href="Tema">Tema</a>
-* <a href="Objetivos">Objetivos</a>
-* <a href="MarcoTeorico">Marco Teórico</a>
-* <a href="Desarrollo">Desarrollo de la Práctica</a>
-* <a href="Conclusiones">Conlusiones y Recomendaciones</a>
+* <a href="#Tema">Tema</a>
+* <a href="#Objetivos">Objetivos</a>
+* <a href="#MarcoTeorico">Marco Teórico</a>
+* <a href="#Desarrollo">Desarrollo de la Práctica</a>
+* <a href="#Conclusiones">Conlusiones y Recomendaciones</a>
 
 <a name="Tema"></a>
 ## Tema
