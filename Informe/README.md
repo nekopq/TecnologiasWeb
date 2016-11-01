@@ -31,14 +31,14 @@ El tema de la práctica es: **Introduccion a la Web**
 Es una red de redes que permite la interconexión descentralizada de computadoras a través de un conjunto de protocolos denominado TCP/IP.
 
 <p align="center">   
-    <img src="https://github.com/nekopq/TecnologiasWeb/blob/01-HTML/Gr%C3%A1ficos/internet.jpeg?raw=true" alt="Computadores conectados a internet">
+    <img src="https://github.com/nekopq/TecnologiasWeb/blob/01-HTML/Informe/Gr%C3%A1ficos/internet.jpeg?raw=true" alt="Computadores conectados a internet">
 </p>
 
 ### Web (World Wide Web)
 Es el sistema de distribución de documentos de hipertexto o hipermedios interconectados y accesibles vía Internet.
 
 <p align="center">   
-    <img src="https://github.com/nekopq/TecnologiasWeb/blob/01-HTML/Gr%C3%A1ficos/www.png?raw=true" alt="Dirección web">
+    <img src="https://github.com/nekopq/TecnologiasWeb/blob/01-HTML/Informe/Gr%C3%A1ficos/www.png?raw=true" alt="Dirección web">
 </p>
 
 ### Aplicaciones Web
@@ -70,19 +70,19 @@ Los mensajes que mayormente se presentan son:
 ### Navegador
 Es un software que permite la presentación de contenido web que se encuentra ubicado localmente o en el internet.
 <p align="center">   
-    <img src="https://github.com/nekopq/TecnologiasWeb/blob/01-HTML/Gr%C3%A1ficos/navegadores.png?raw=true" alt="Navegadores web">
+    <img src="https://github.com/nekopq/TecnologiasWeb/blob/01-HTML/Informe/Gr%C3%A1ficos/navegadores.png?raw=true" alt="Navegadores web">
 </p>
 
 ### W3C (World Wide Web Consortium)
 Es una comunidad internacional de organizaciones, empleados a tiempo completo y el público, trabajan en conjunto para desarrollar estándares para la Web. Está dirigida por el "Padre de la Web", Tim Berners Lee.
 <p align="center">   
-    <img src="https://github.com/nekopq/TecnologiasWeb/blob/01-HTML/Gr%C3%A1ficos/w3c.gif?raw=true" alt="Logo del W3C">
+    <img src="https://github.com/nekopq/TecnologiasWeb/blob/01-HTML/Informe/Gr%C3%A1ficos/w3c.gif?raw=true" alt="Logo del W3C">
 </p>
 
 ### W3Schools
 Es un sitio web en donde expertos en el ámbito web comparten sus conocimientos sobre varios temas; las explican con definiciones, teoría y ejemplos. Además ofrecen la posibilidad de obtener certificaciones.
 <p align="center">   
-    <img src="https://github.com/nekopq/TecnologiasWeb/blob/01-HTML/Gr%C3%A1ficos/w3schools.jpg?raw=true" alt="Logo de W3Schools">
+    <img src="https://github.com/nekopq/TecnologiasWeb/blob/01-HTML/Informe/Gr%C3%A1ficos/w3schools.jpg?raw=true" alt="Logo de W3Schools">
 </p>
 
 ### Doctype
@@ -91,13 +91,13 @@ El <!DOCTYPE> es la primera declaración que se encuentra dentro de un html, no 
 ### HTML (Hypertext Markup Language)
 HTML es un lenguaje de marcado, esto quiere decir que utiliza etiquetas para encapsular información. Los navegadores no presentan las etiquetas simplemente las utilizan para renderizar correctamente el contenido de la página.
 <p align="center">   
-    <img src="https://github.com/nekopq/TecnologiasWeb/blob/01-HTML/Gr%C3%A1ficos/html.jpg?raw=true" alt="Ejemplo de HTML">
+    <img src="https://github.com/nekopq/TecnologiasWeb/blob/01-HTML/Informe/Gr%C3%A1ficos/html.jpg?raw=true" alt="Ejemplo de HTML">
 </p>
 
 ### CSS (Cascading Style Sheets)
 Es un lenguaje que describe el estilo de un documento HTML, describe como los elementos deben ser mostrados.
 <p align="center">   
-    <img src="https://github.com/nekopq/TecnologiasWeb/blob/01-HTML/Gr%C3%A1ficos/css.png?raw=true" alt="CSS">
+    <img src="https://github.com/nekopq/TecnologiasWeb/blob/01-HTML/Informe/Gr%C3%A1ficos/css.png?raw=true" alt="CSS">
 </p>
 
 ### Herramienta Inspeccionar
@@ -110,28 +110,28 @@ Es una herramienta que se encuentra disponible dentro de la mayoría de navegado
 * **Performance**: Permite obtener información sobre el rendimiento dentro de una página
 * **Network**: Muestra información sobre cada petición realizada al servidor, el contenido de las cabeceras de los paquetes y los archivos recibidos.
 <p align="center">   
-    <img src="https://github.com/nekopq/TecnologiasWeb/blob/01-HTML/Gr%C3%A1ficos/InspectorFirefox.PNG?raw=true" alt="Opciones del Inspector Web">
+    <img src="https://github.com/nekopq/TecnologiasWeb/blob/01-HTML/Informe/Gr%C3%A1ficos/InspectorFirefox.PNG?raw=true" alt="Opciones del Inspector Web">
 </p>
 
 ### Postman
 Es una herramienta que sirve para realizar una petición HTTP a un servidor.
 <p align="center">   
-    <img src="https://github.com/nekopq/TecnologiasWeb/blob/01-HTML/Gr%C3%A1ficos/postman0.jpg?raw=true" alt="Logo de Postman">
+    <img src="https://github.com/nekopq/TecnologiasWeb/blob/01-HTML/Informe/Gr%C3%A1ficos/postman0.jpg?raw=true" alt="Logo de Postman">
 </p>
 <p align="center">   
-    <img src="https://github.com/nekopq/TecnologiasWeb/blob/01-HTML/Gr%C3%A1ficos/postman1.png?raw=true" alt="Interfaz de Postman">
+    <img src="https://github.com/nekopq/TecnologiasWeb/blob/01-HTML/Informe/Gr%C3%A1ficos/postman1.png?raw=true" alt="Interfaz de Postman">
 </p>
 
 ### NPM
 Es un administrador de paquetes para el ambiente javascript Node.js
 <p align="center">   
-    <img src="https://github.com/nekopq/TecnologiasWeb/blob/01-HTML/Gr%C3%A1ficos/npm.png?raw=true" alt="Logo de Node.js">
+    <img src="https://github.com/nekopq/TecnologiasWeb/blob/01-HTML/Informe/Gr%C3%A1ficos/npm.png?raw=true" alt="Logo de Node.js">
 </p>
 
 ### XML (Extensible Markup Language)
 Es un lenguaje diseñado para almacenar y transportar datos, fue diseñando de tal forma que sea comprensible tanto para el humano como para la máquina. Está compuesta de etiquetas que encapsulan los datos. Las etiquetas son nombradas generalmente por el dato que llevan dentro.
 <p align="center">   
-    <img src="https://github.com/nekopq/TecnologiasWeb/blob/01-HTML/Gr%C3%A1ficos/xml.png?raw=true" alt="XML">
+    <img src="https://github.com/nekopq/TecnologiasWeb/blob/01-HTML/Informe/Gr%C3%A1ficos/xml.png?raw=true" alt="XML">
 </p>
 
 <a name="Desarrollo"></a>
@@ -139,13 +139,13 @@ Es un lenguaje diseñado para almacenar y transportar datos, fue diseñando de t
 ### Postman
 Para instalar postman es necesario ir a la tienda de complementos de Chrome y añadirlo al navegador.
 <p align="center">   
-    <img src="https://github.com/nekopq/TecnologiasWeb/blob/01-HTML/Gr%C3%A1ficos/postman3.PNG?raw=true" alt="Instalación de Postman">
+    <img src="https://github.com/nekopq/TecnologiasWeb/blob/01-HTML/Informe/Gr%C3%A1ficos/postman3.PNG?raw=true" alt="Instalación de Postman">
 </p>
 
 Una vez instalado abrimos el complemento y se nos muestra una ventana con todas las opciones disponibles, esto es la selección del método HTTP a usar y el contenido que vamos a enviar junto con el método.
 
 <p align="center">   
-    <img src="https://github.com/nekopq/TecnologiasWeb/blob/01-HTML/Gr%C3%A1ficos/postman2.jpeg?raw=true" alt="Interfaz de Postman">
+    <img src="https://github.com/nekopq/TecnologiasWeb/blob/01-HTML/Informe/Gr%C3%A1ficos/postman2.jpeg?raw=true" alt="Interfaz de Postman">
 </p>
 
 ### HTML
