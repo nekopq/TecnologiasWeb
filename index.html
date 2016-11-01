@@ -6,32 +6,82 @@
 </head>
 <body>
     <script>
-        //alert('Hola');
-        console.log('Hola desde consola');
-        var texto = "Texto";
-        console.log(texto);
+//        Ctrl + / para comentar
         
-        var numero = 1;
-        console.log(numero);
+//        //alert('Hola');
+//        console.log('Hola desde consola');
+//        
+//        //Variables
+//        var texto = "Texto";
+//        console.log(texto);
+//        
+//        var numero = 1;
+//        console.log(numero);
+//        
+//        var float = 2.4;
+//        console.log(float);
+//        
+//        var boolean = true;
+//        console.log(boolean);
+//        
+//        var varNull = null;
+//        console.log(varNull);
+//        
+//        var varUndefined = undefined;
+//        console.log(varUndefined);
+//        
+//        var textoNumero = "1";
+//        console.log("Valor siendo string: ");
+//        console.log(textoNumero);
+//        textoNumero = 1;
+//        console.log("Valor siendo numero: ");
+//        console.log(textoNumero);
         
-        var float = 2.4;
-        console.log(float);
+//        //Arreglos
+//        
+//        var arregloString = ['1', '2', '3'];
+//        console.log(arregloString);
+//        
+//        var arregloNumeros = [1, 2, 3];
+//        console.log(arregloNumeros);
+//        
+//        var arregloBool = [true, false, true];
+//        console.log(arregloBool);
+//        
+//        var arregloNull = [null, null, undefined];
+//        console.log(arregloNull);
+//        
+//        var arregloTodo = ["Nombre", 123, 3.1415, true, null, undefined];
+//        console.log(arregloTodo);
+//        console.log(arregloTodo.length);
         
-        var boolean = true;
-        console.log(boolean);
+        //Objetos
         
-        var varNull = null;
-        console.log(varNull);
+        var sugar = {
+            'name':'Sugar',
+            'moreName':'Sprinkles',
+            'songs':[
+                {'name':'Sprinkles on my head',
+                'episode':'16'},
+                {'name':"Secret Cupet",
+                'episode':'33'}
+            ],
+            getSugar:function(){
+                return this.name+" "+this.moreName;
+            },
+            setName:function(newName){
+                this.name = newName;
+            }
+        }
         
-        var varUndefined = undefined;
-        console.log(varUndefined);
+        console.log(sugar);
+        console.log(sugar.name);
+        console.log(sugar.morename);
+        console.log(sugar.getSugar());
+        sugar.setName('Best Pet');
+        console.log(sugar.getSugar());
         
-        var textoNumero = "1";
-        console.log("Valor siendo string: ");
-        console.log(textoNumero);
-        textoNumero = 1;
-        console.log("Valor siendo numero: ");
-        console.log(textoNumero);
-        </script>
+
+    </script>
 </body>
 </html>
