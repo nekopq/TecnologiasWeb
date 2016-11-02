@@ -43,9 +43,11 @@ selector {
 } //Bloque de declaraciones
 ```
 
-<p>**Selector**: El selector apunta al elemento HTML al cual se va a aplicar un estilo</p>
-<p>**Bloque de declaraciones**: Contiene una o más declaraciones separadas por punto y coma</p>
-<p>**Declaración**: Contiene una propiedad y un valor, deparado por dos puntos</p>
+**Selector**: El selector apunta al elemento HTML al cual se va a aplicar un estilo
+
+**Bloque de declaraciones**: Contiene una o más declaraciones separadas por punto y coma
+
+**Declaración**: Contiene una propiedad y un valor, deparado por dos puntos
 
 Ejemplo: Aplica el estilo centrado y de color rojo a todos los elementos dentro de tags ```<p>```
 ```CSS
@@ -114,10 +116,13 @@ npm install -g http-server
     <img src="https://github.com/nekopq/TecnologiasWeb/blob/02-CSS/Informe/Gr%C3%A1ficos/CMDnpm1.PNG?raw=true" alt="Pantalla Final del instalador de npm">
 </p>
 
-<p>**npm**: Es el gestor de paquetes que vamos a usar parar obtener el servidor web y otras herramientas.</p>
-<p>**install**: Indica la acción a realizar con el paquete</p>
-<p>**-g**: Establece que la instalación será global (para todos los usuarios del sistema).</p>
-<p>**http-server**: Es el nombre del paquete que deseamos instalar.</p>
+**npm**: Es el gestor de paquetes que vamos a usar parar obtener el servidor web y otras herramientas.
+
+**install**: Indica la acción a realizar con el paquete
+
+**-g**: Establece que la instalación será global (para todos los usuarios del sistema).
+
+**http-server**: Es el nombre del paquete que deseamos instalar.
 
 -------
 
