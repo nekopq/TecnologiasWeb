@@ -39,7 +39,7 @@ El formato en el que se escribe código CSS es:
 ```CSS
 selector {
     propiedad: valor;    /*Declaración*/
-    propiedad1: valor1;
+    propiedada: valora;
 } /*Bloque de declaraciones*/
 ```
 
@@ -47,7 +47,7 @@ selector {
 
 **Bloque de declaraciones**: Contiene una o más declaraciones separadas por punto y coma
 
-**Declaración**: Contiene una propiedad y un valor, deparado por dos puntos
+**Declaración**: Contiene una propiedad y un valor, separado por dos puntos
 
 Ejemplo: Aplica el estilo centrado y de color rojo a todos los elementos dentro de tags ```<p>```
 ```CSS
