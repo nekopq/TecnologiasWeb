@@ -38,9 +38,9 @@ Es un lenguaje que describe el estilo o aspecto visual de cada objeto dentro de 
 El formato en el que se escribe código CSS es:
 ```CSS
 selector {
-    propiedad: valor;   //Declaración
+    propiedad: valor;    /*Declaración*/
     propiedad1: valor1;
-} //Bloque de declaraciones
+} /*Bloque de declaraciones*/
 ```
 
 **Selector**: El selector apunta al elemento HTML al cual se va a aplicar un estilo
@@ -172,6 +172,7 @@ p {
 }
 ```
 * **Por Clase**: Se crea una "clase" específica con un estilo y se vinculan los elementos que deban tener este estilo con esta clase.
+
 Hoja de estilos CSS
 ```CSS
 .clase1 {
@@ -184,6 +185,7 @@ Archivo HTML
 <p class="clase1">Texto con estilos de la clase1</p>
 ```
 * **Por Id**: Se aplica un estilo para un elemento con un identificador específico.
+
 Hoja de estilos CSS
 ```CSS
 #elemento1 {
@@ -202,11 +204,11 @@ Bootstrap es una hoja de estilos ya definida y que cubre casi la totalidad de el
 Para establecer Bootstrap como la hoja de estilos a aplicar, realizamos el mismo proceso de cualquier hoja de estilos. Esto es, añadir una etiqueta ```<link>``` con la ruta de Bootstrap.
 
 ```HTML
- <head>
-     <meta charset="UTF-8">
-     <title>Tutorial HTML</title>
-+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
- </head>
+<head>
+    <meta charset="UTF-8">
+    <title>Tutorial HTML</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
 ```
 
 <a href="#Conclusiones">Ir al inicio</a>
