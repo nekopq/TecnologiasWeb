@@ -232,11 +232,11 @@ Este atributo ```background.color``` con valor ```#c59d4b``` se aplica a todo el
 
 ## Conclusiones y Recomendaciones
 
-- Se recomienda mejorar la presentacion
-- Se recomienda usar el ir a cabecera despues de terminar una seccion
-- Se aprendio el uso de HTML con Markdown
-- Conocimos herramientas de desarrollo web como postman e inspector web
-- Desarrollamos conocimientos de introducción Web
+- Postman es una buena herramienta para realizar pruebas al momento de desarrollar páginas web, este nos permitirá comprobar si se responde correctamente a las solicitudes o no.
+- HTML es un lenguaje muy similar a XML por lo que lo vuelve sencillo de aprender.
+- El inspector web nos permite conocer los detalles de los errores que se hayan producido al cargar un sitio web lo que facilita sus correcciones.
+- El lenguaje HTML es tan sencillo que no se necesita de un IDE especializado pues se pueden crear estos archivos sin problema incluso en un bloc de notas.
+- Los estilos nos permiten personalizar todos los objetos HTML dentro del documento para mejorar su apariencia y ser atractivos para el usuario.
 
 <br>
 <a href="#Inicio">Ir al inicio</a>
