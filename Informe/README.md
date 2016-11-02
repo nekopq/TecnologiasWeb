@@ -1,4 +1,4 @@
-<a href="Inicio"></a>
+<a name="Inicio"></a>
 Tema: Introducción a la Web
 --
 #### Fecha: 2016-10-21
