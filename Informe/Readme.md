@@ -1,7 +1,7 @@
 <a name="Inicio"></a>
 Tema: Bootstrap
 --
-#### Fecha: 2016-10-25
+#### Fecha: 2016-11-8
 #### Estudiante: Stalin Aguirre Iza
 #### Profesor: Tania Calle - Adrian Eguez
 #### Número de informe: 2
@@ -29,7 +29,7 @@ El tema de la práctica es: **Bootstrap**
 ### Bootstrap
 
 <p align="center">   
-    <img src="https://pkp.sfu.ca/wp-content/uploads/2016/09/bootstrap-logo.png" alt="Logo de Bootstrap">
+    <img src="https://github.com/nekopq/TecnologiasWeb/blob/03-Bootstrap/Informe/Gr%C3%A1ficos/bootstrap.png?raw=true" alt="Logo de Bootstrap">
 </p>
 
 Bootstrap es el framework HTML, CSS y Javascript más popular para desarrollar interfacecs responsive y sitios web enfocados en los disposivos móviles.
@@ -38,7 +38,7 @@ Bootstrap es simple de usar y es gratuito. Contiene su propio código CSS que mo
 ### WIA (Web Accesibility Initiative)
 
 <p align="center">   
-    <img src="http://www.misnet.co.uk/images/website-accessibility.jpg" alt="Logo de la WIA">
+    <img src="https://github.com/nekopq/TecnologiasWeb/blob/03-Bootstrap/Informe/Gr%C3%A1ficos/w3cwia.jpg?raw=true" alt="Logo de la WIA">
 </p>
 La Iniciativa de Accesibilidad Web fue creada en 1997 por el W3C (Consorcio de la WWW), la WIA es un conjunto de guías enfocadas a los desarrolladores, autores y diseñadores web, de como hacer contenido web accesible a la gente con discapacidades.
 
@@ -47,7 +47,7 @@ La meta de estas guías es la accesibilidad, pero también ayudan a que los cont
 ### Validación Web
 
 <p align="center">   
-    <img src="http://1stwdcdn-31d9.kxcdn.com/wp-content/uploads/2011/03/validator.w3.jpg" alt="Validador Web de la W3C">
+    <img src="https://github.com/nekopq/TecnologiasWeb/blob/03-Bootstrap/Informe/Gr%C3%A1ficos/validation.jpg?raw=true" alt="Validador Web de la W3C">
 </p>
 
 Un validador web es un software que permite revisar una página web según varios estándares establecidos y comprobar que tanto los seguimos.
