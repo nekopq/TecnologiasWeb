@@ -9,82 +9,123 @@
 //        Ctrl + / para comentar
         //Objetos
         
-        var sugar = {
-            'name':'Sugar',
-            'moreName':'Sprinkles',
-            'songs':[
-                {'name':'Sprinkles on my head',
-                'episode':'16'},
-                {'name':"Secret Cupet",
-                'episode':'33'}
-            ],
-            getSugar:function(){
-                return this.name+" "+this.moreName;
-            },
-            setName:function(newName){
-                this.name = newName;
-            }
-        }
-        
-        console.log(sugar);
-        console.log(sugar.name);
-        console.log(sugar.morename);
-        console.log(sugar.getSugar());
-        sugar.setName('Best Pet');
-        console.log(sugar.getSugar());
+//        var sugar = {
+//            'name':'Sugar',
+//            'moreName':'Sprinkles',
+//            'songs':[
+//                {'name':'Sprinkles on my head',
+//                'episode':'16'},
+//                {'name':"Secret Cupet",
+//                'episode':'33'}
+//            ],
+//            getSugar:function(){
+//                return this.name+" "+this.moreName;
+//            },
+//            setName:function(newName){
+//                this.name = newName;
+//            }
+//        }
+//        
+//        console.log(sugar);
+//        console.log(sugar.name);
+//        console.log(sugar.morename);
+//        console.log(sugar.getSugar());
+//        sugar.setName('Best Pet');
+//        console.log(sugar.getSugar());
         
         //Ejercicio 1-2
-        var count=10;
-        console.log('Empieza');
-        while(count>0){
-            console.log(count);
-            count--;
-        }
-        console.log('Fin');
+//        var count=10;
+//        console.log('Empieza');
+//        while(count>0){
+//            console.log(count);
+//            count--;
+//        }
+//        console.log('Fin');
         
 
         //Ejercicio 3
-        count=10;
-        while(count>0){
-            if(count%2===0){
-                console.log('El número: '+count+' es impar');
-            }
-            else{
-                console.log('El número: '+count+' es par');
-            }
-        count--;
-        }
+//        count=10;
+//        while(count>0){
+//            if(count%2===0){
+//                console.log('El número: '+count+' es impar');
+//            }
+//            else{
+//                console.log('El número: '+count+' es par');
+//            }
+//        count--;
+//        }
         
         //Ejercicio 4
-        var arreglo = [];
-        console.log(arreglo);
-        count=10;
-        while(count>0){
-            arreglo.push(count);
-            count--;
-        }
-        console.log(arreglo);
+//        var arreglo = [];
+//        console.log(arreglo);
+//        count=10;
+//        while(count>0){
+//            arreglo.push(count);
+//            count--;
+//        }
+//        console.log(arreglo);
         
         //Ejercicio 5
-        //Borra el último
-        arreglo.pop();
-        console.log(arreglo);
-        //Borra en posicion
-        arreglo.splice(0,1);
-        console.log(arreglo);
+//        //Borra el último
+//        arreglo.pop();
+//        console.log(arreglo);
+//        //Borra en posicion
+//        arreglo.splice(0,1);
+//        console.log(arreglo);
         
         //Ejercicio 6
-        var sheep=4;
-        var monthNumber=1;
-        var monthsToPrint=12;
+//        var sheep=4;
+//        var monthNumber=1;
+//        var monthsToPrint=12;
         
-        while(monthNumber<=monthsToPrint){
-            sheep*=4;
-            console.log('There will be '+sheep+' sheep after '+monthNumber+' month(s)!');
-            monthNumber++;
-        }
+//        while(monthNumber<=monthsToPrint){
+//            sheep*=4;
+//            console.log('There will be '+sheep+' sheep after '+monthNumber+' month(s)!');
+//            monthNumber++;
+//        }
         
+//        for(var i=0; i<monthsToPrint; i++){
+//            sheep*=4;
+//            console.log('There will be '+sheep+' sheep after '+i+' month(s)!');
+//        }
         
+//        var numero = 10;        
+//        while(numero>0){
+//            if (numero%2===0){
+//                console.log('El número '+numero+' es par.');
+//            }
+//            numero=numero-1;
+//        }
+        
+//        var percentage=0;
+//        for(var monthNumber=0; monthNumber<monthsToPrint; monthNumber++){
+//            sheep*=4;
+//            console.log('There will be '+sheep+' sheep after '+monthNumber+' month(s)!');
+//            if(monthNumber%4===0){
+//                percentage=sheep*.75;
+//                console.log('Removing '+percentage+' sheeps.');
+//                sheep=sheep-percentage;
+//            }
+//            else{
+//                console.log('Removing '+percentage+' sheeps.');
+//            }
+//        }
+        
+//        var respuesta = prompt("Cual es tu edad?");
+//        console.log(respuesta);
+        
+        //Max of 2 numbers
+        
+        //
+//        function mistery (x,y){
+//            var a = 4 * x * y;
+//        }
+//        
+        var movie1 = [16, "Candles"];
+        var movie2 = [3, "Men", "and", "a", "Baby"];
+        var eightiesMovies = [movie1, movie2];
+        
+        var infant = eightiesMovies[1][4];
         
     </script>
 </body>
