@@ -29,34 +29,32 @@ El tema de la práctica es: **Bootstrap**
 ### Bootstrap
 
 <p align="center">   
-    <img src="https://pkp.sfu.ca/wp-content/uploads/2016/09/bootstrap-logo.png" alt="Sitio web de node.js">
+    <img src="https://pkp.sfu.ca/wp-content/uploads/2016/09/bootstrap-logo.png" alt="Logo de Bootstrap">
 </p>
 
 Bootstrap es el framework HTML, CSS y Javascript más popular para desarrollar interfacecs responsive y sitios web enfocados en los disposivos móviles.
 Bootstrap es simple de usar y es gratuito. Contiene su propio código CSS que modifica cada uno de los diferentes componentes del documento html.
 
+### WIA (Web Accesibility Initiative)
+
+<p align="center">   
+    <img src="http://www.misnet.co.uk/images/website-accessibility.jpg" alt="Logo de la WIA">
+</p>
+La Iniciativa de Accesibilidad Web fue creada en 1997 por el W3C (Consorcio de la WWW), la WIA es un conjunto de guías enfocadas a los desarrolladores, autores y diseñadores web, de como hacer contenido web accesible a la gente con discapacidades.
+
+La meta de estas guías es la accesibilidad, pero también ayudan a que los contenidos de los sitios web estén disponibles en más navegadores, de cualquier dispositivo. Y que más usuarios puedan acceder a ellos  utilizarlos en ambientes duros como en la oscuridad, con poca vista, con mucho ruido, demasiada luz, etc.
+
+### Validación Web
+
+<p align="center">   
+    <img src="http://1stwdcdn-31d9.kxcdn.com/wp-content/uploads/2011/03/validator.w3.jpg" alt="Validador Web de la W3C">
+</p>
+
+Un validador web es un software que permite revisar una página web según varios estándares establecidos y comprobar que tanto los seguimos.
+
+Cuando se usa un validador, este presenta un resultado con una lista de errores encontrados basados en un estándar. Normalmente os validadores presentan el número de la línea de código en donde se encuentra el error.
 
 ## Desarrollo del informe
-
--------
-
-Una vez instalado el paquete, podemos ejecutarlo con el comando:
-
-```
-http-server -c10 
-```
-
-**http-server**: Es el nombre del paquete que se encuentra instalado.
-
-**-c10**: Se establece un tiempo de caché
-<p align="center">   
-    <img src="https://raw.githubusercontent.com/nekopq/TecnologiasWeb/5c45fe619ed16883a0d5cda36bba6554006ebdf2/Informe/Gr%C3%A1ficos/ServidorWeb.PNG" alt="Consola al levantar el servidor">
-</p>
-
-Si entramos a un navegador e ingresamos ```localhost:8080``` se nos mostrará el index.html de nuestro servidor (local).
-<p align="center">   
-    <img src="https://raw.githubusercontent.com/nekopq/TecnologiasWeb/5c45fe619ed16883a0d5cda36bba6554006ebdf2/Informe/Gr%C3%A1ficos/ServidorWeb1.PNG" alt="index.html del servidor">
-</p>
 
 ### HTML
 Dentro de un HTML la etiqueta en la que nos enfocamos para aplicar estilos es **body**, todos los elementos en su interior se verán afectados por los estilos que añadamos.
@@ -126,11 +124,14 @@ Para establecer Bootstrap como la hoja de estilos a aplicar, realizamos el mismo
 ```
 
 <a href="#Conclusiones">Ir al inicio</a>
+
 ## Conclusiones y Recomendaciones
 
 - Los estilos nos permiten personalizar todos los elementos dentro del documento HTML para mejorar su apariencia y ser atractivos para el usuario.
 - Bootstrap es un framework que incluye un sin número de estilos para muchos elementos del HTML facilitando la aplicación de estilos o la creación de estilos manuales.
 - Los estilos pueden ser aplicados de varias formas, queda a criterio del desarrollador escoger correctamente la mejor forma de hacerlo.
+- El hecho de poder desarrollar sitios web no significa simplemente poder crear el código sino realizar los ajustes necesarios para asegurar la accesibilidad de la misma.
+- El hecho de seguir estándares no significa que nuestra página llegue a ser la mejor, depende de muchos aspectos más que incluyen seguir estándares.
 
 <br>
 <a href="#Inicio">Ir al inicio</a>
