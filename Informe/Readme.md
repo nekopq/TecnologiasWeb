@@ -26,101 +26,17 @@ El tema de la práctica es: **Bootstrap**
 <a name="MarcoTeorico"></a>
 ## Marco Teórico
 
-### CSS (Cascading Style Sheets)
+### Bootstrap
 
-Es un lenguaje que describe el estilo o aspecto visual de cada objeto dentro de un documento HTML, describe como los elementos deben ser mostrados.
 <p align="center">   
-    <img src="https://github.com/nekopq/TecnologiasWeb/blob/01-HTML/Informe/Gr%C3%A1ficos/css.png?raw=true" alt="CSS">
+    <img src="https://pkp.sfu.ca/wp-content/uploads/2016/09/bootstrap-logo.png" alt="Sitio web de node.js">
 </p>
 
-El formato en el que se escribe código CSS es:
-```CSS
-selector {
-    propiedad: valor;    /*Declaración*/
-    propiedada: valora;
-} /*Bloque de declaraciones*/
-```
+Bootstrap es el framework HTML, CSS y Javascript más popular para desarrollar interfacecs responsive y sitios web enfocados en los disposivos móviles.
+Bootstrap es simple de usar y es gratuito. Contiene su propio código CSS que modifica cada uno de los diferentes componentes del documento html.
 
-**Selector**: El selector apunta al elemento HTML al cual se va a aplicar un estilo
 
-**Bloque de declaraciones**: Contiene una o más declaraciones separadas por punto y coma
-
-**Declaración**: Contiene una propiedad y un valor, separado por dos puntos
-
-Ejemplo: Aplica el estilo centrado y de color rojo a todos los elementos dentro de tags ```<p>```
-```CSS
-p {
-    color: red;
-    text-align: center;
-}
-```
-
-Los estilos pueden encontrarse dentro del html o en un archivo aparte. Si se ubica en un archivo aparte, el documento HTML debe poder referenciar a la hoja de estilos para que esta pueda ser aplicada. Para esto, se ingresa el tag ```<link>``` dentro del tag ```<head>``` del HTML de la siguiente forma:
-
-```HTML
-<head>
-    <meta charset="UTF-8">
-    <title>Tutorial HTML</title>
-    <link rel="stylesheet" href="estilos/estilos.css">
-</head>
-```
-
-En el atributo ```href``` ingresamos la ruta de la hoja de estilos que queramos aplicar.
-### Node.js
-
-Es un entorno en tiempo de ejecución multiplataforma basado en el lenguaje de programación ECMAScript y en el motor V8 de Google (motor JavaScript). Esto permite que el código JavaScript no se ejecute en el navegador sino en el servidor. Además permite la creación de servidores web y otras herramientas usando JavaScript y un conjunto de "módulos" que se ocupen de varias funcionalidades.
-<p align="center">   
-    <img src="https://github.com/nekopq/TecnologiasWeb/blob/01-HTML/Informe/Gr%C3%A1ficos/node.png?raw=true" alt="Logo de Node.js y npm">
-</p>
-
-### NPM
-
-Es el administrador de paquetes por defecto de JavaScript, permite a los desarrolladores de código JavaScript poder compartir su código para que este sea reutilizado por otros desarrolladores. A estos fragmentos compartidos de código se los denomina "paquetes" o "módulos". Un paquete es simplemente un directorio que contiene uno o más archivos dentro, tambien contiene un archivo llamado "package.json" el cual contiene metadatos sobre el paquete.
-<p align="center">   
-    <img src="https://github.com/nekopq/TecnologiasWeb/blob/01-HTML/Informe/Gr%C3%A1ficos/npm.png?raw=true" alt="Logo de npm">
-</p>
-
-<a name="Desarrollo"></a>
 ## Desarrollo del informe
-
-### Instalación de Node.js
-
-Nos dirigimos a la página principal de [Node.js](https://nodejs.org/en/) y seleccionamos la versión a descargar.
-<p align="center">   
-    <img src="https://github.com/nekopq/TecnologiasWeb/blob/01-HTML/Informe/Gr%C3%A1ficos/nodejs.PNG?raw=true" alt="Sitio web de node.js">
-</p>
-
-Abrimos el instalador y seguimos los pasos necesarios hasta finalizar.
-<p align="center">   
-    <img src="https://github.com/nekopq/TecnologiasWeb/blob/02-CSS/Informe/Gr%C3%A1ficos/InstalacionNodejs.PNG?raw=true" alt="Pantalla inicial del instalador de npm">
-</p>
-<p align="center">   
-    <img src="https://github.com/nekopq/TecnologiasWeb/blob/02-CSS/Informe/Gr%C3%A1ficos/InstalacionNodejs2.PNG?raw=true" alt="Pantalla Final del instalador de npm">
-</p>
-
-### Instalación de un Servidor Web
-
-Para instalar un Servidor Web haremos uso de npm. Abrimos una terminal (preferentemente dentro de la carpeta en la que estemos trabajando) y ejecutamos la instrucción:
-
-<p align="center">   
-    <img src="https://github.com/nekopq/TecnologiasWeb/blob/02-CSS/Informe/Gr%C3%A1ficos/CMDnpm.PNG?raw=true" alt="Pantalla Final del instalador de npm">
-</p>
-
-
-```
-npm install -g http-server
-```
-<p align="center">   
-    <img src="https://github.com/nekopq/TecnologiasWeb/blob/02-CSS/Informe/Gr%C3%A1ficos/CMDnpm1.PNG?raw=true" alt="Pantalla Final del instalador de npm">
-</p>
-
-**npm**: Es el gestor de paquetes que vamos a usar parar obtener el servidor web y otras herramientas.
-
-**install**: Indica la acción a realizar con el paquete
-
-**-g**: Establece que la instalación será global (para todos los usuarios del sistema).
-
-**http-server**: Es el nombre del paquete que deseamos instalar.
 
 -------
 
