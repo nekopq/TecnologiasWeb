@@ -42,24 +42,44 @@
 //        console.log(puzzlers[1](5));
 //        console.log(puzzlers[2](5));
 //        console.log(puzzlers[3](5));
+//        
+//        //Ejercicio 4
+//        var userChoice = prompt("Choose your adventure 1-3");
+//        
+//        function adventureSelector(userChoice){
+//            if(userChoice==1){
+//                return function(){alert("You have selected the Vines of Doom!")}
+//            }
+//            else if(userChoice==2){
+//                return function(){alert("Looks like you want the lake of Despair!")}
+//            }
+//            else if(userChoice==3){
+//                return function(){alert("The Caves of Catastrophe!")}
+//            }
+//        }
+//        
+//        console.log(adventureSelector(userChoice));
         
-        //Ejercicio 4
+        //Ejercicio 5
+        var puzzlers = [
+            function(a) { return 8 * a - 10; },            
+            function(a) { return (a - 3) * (a - 3) * (a - 3); },
+            function(a) { return a * a + 4; },
+            function(a) { return a % 5; }
+        ];
+        var start = 2;
         
-        var userChoice = prompt("Choose your adventure 1-3");
-        
-        function adventureSelector(userChoice){
-            if(userChoice==1){
-                return function(){alert("You have selected the Vines of Doom!")}
+        var applyAndEmpty = function(input, queue){
+            console.log(queue);
+            for(;queue.length>0;){
+                input=queue[0](input);
+                queue.splice(0, 1);
+                console.log(queue);
             }
-            else if(userChoice==2){
-                return function(){alert("Looks like you want the lake of Despair!")}
-            }
-            else if(userChoice==3){
-                return function(){alert("The Caves of Catastrophe!")}
-            }
+            return input;
         }
         
-        console.log(adventureSelector(userChoice));
+        console.log(applyAndEmpty(start, puzzlers));
         
     </script>
     
