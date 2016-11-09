@@ -6,13 +6,24 @@
 </head>
 <body>  
     <script>
-        function nombre(){
-            
+        function funcion1(){
+            console.log("Ejemplo función 1")
         }
+        funcion1();
+        var funcion2 = function(){
+            console.log("Ejemplo función 2")
+        }
+        funcion2();
         
-        var nombreFuncion = function(){
-            
-        }
+        var passengers = [["Thomas", "Weeks"],
+                          ["Gregg", "Pollack"],
+                          ["Christine", "Wong"],
+                          ["Dan", "McGaw"]];
+        
+        var modifiedNames = passengers.map(function(arrayNombres){
+            return arrayNombres[0]+' '+arrayNombres[1];
+        });
+        console.log(modifiedNames);
     </script>
     
 </body>
