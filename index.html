@@ -15,15 +15,23 @@
         }
         funcion2();
         
+        //Ejercicio 1
         var passengers = [["Thomas", "Weeks"],
                           ["Gregg", "Pollack"],
                           ["Christine", "Wong"],
                           ["Dan", "McGaw"]];
         
-        var modifiedNames = passengers.map(function(arrayNombres){
-            return arrayNombres[0]+' '+arrayNombres[1];
+        var modifiedNames = passengers.map(function(arrayNombreApellido){
+            return arrayNombreApellido[0]+' '+arrayNombreApellido[1];
         });
         console.log(modifiedNames);
+    
+        //Ejercicio 2
+        var mod1 = modifiedNames.map(function(arrayNames){
+           alert("Yo, "+arrayNames); 
+        });
+        console.log(modifiedNames);
+    
     </script>
     
 </body>
