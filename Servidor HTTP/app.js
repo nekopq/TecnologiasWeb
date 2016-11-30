@@ -8,11 +8,25 @@ var usuario = {
     apellido: 'Sprinkles'
 }
 
+//Añadir una propiedad a un json
+
+//usuario = {
+//    nombre: usuario.nombre,
+//    apellido: usuario.apellido,
+//    cedula: '1234'
+//}
+
+usuario.apellido = '';
+usuario.mascotas = [];
+usuario.casado = false;
+
 app.get('/', function (req, res) {
   res.send('con Javascript')
 })
 
 app.post('/TecnologiasWeb', function (req, res) {
+    
+    res.headers.token = '1234';
     //request y response
     console.log("Lo que tengo en el request es:"+req);
     console.log("Lo que tengo en el response es:"+res);
@@ -24,6 +38,7 @@ app.post('/TecnologiasWeb', function (req, res) {
 //    console.log(res.headers);
     
     res.json(usuario);
+    res.append('token', '1234');
     
 })
 
