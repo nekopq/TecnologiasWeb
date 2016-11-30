@@ -46,6 +46,27 @@ app.post('/TecnologiasWeb', function (req, res) {
     res.json(usuario);
 })
 
+app.post('/Usuario', function (req, res) {
+    console.log(req.query.nombre);
+    console.log(req.query.apellido);
+    //Si no se envia parametro, Undefined
+    
+    if(!req.query.nombre){
+        res.send("No se envió el nombre");
+    }
+    if(!req.query.apellido){
+        res.send("No se envió el apellido");
+    }
+})
+
+var nuevoUsuario = {
+    id: usuarios.lengh+1;
+    nombre:req.query.nombre,
+    apellido:req.query.apellido
+}
+usuarios.push(nuevoUsuario);
+res.json(nuevoUsuario);
+
 app.listen(puerto, function () {
   console.log('Example app listening on port '+puerto+'!')
 })
