@@ -3,43 +3,47 @@ var app = express()
 
 var puerto = "6060";
 
-var usuario = {
-    nombre: 'Sugar',
-    apellido: 'Sprinkles'
-}
+var usuarios = [
+    {
+        id: 1,
+        nombre: 'Sugar',
+        apellido: 'Sprinkles'
+    },
+    {
+        id: 2,
+        nombre: 'Minka',
+        apellido: 'Mark'
+    },
+    {
+        id: 3,
+        nombre: 'Pepper',
+        apellido: 'Clark'
+    }
+]
 
-//Añadir una propiedad a un json
-
-//usuario = {
-//    nombre: usuario.nombre,
-//    apellido: usuario.apellido,
-//    cedula: '1234'
-//}
-
-usuario.apellido = '';
-usuario.mascotas = [];
-usuario.casado = false;
 
 app.get('/', function (req, res) {
   res.send('con Javascript')
 })
 
-app.post('/TecnologiasWeb', function (req, res) {
-    
-    res.headers.token = '1234';
-    //request y response
-    console.log("Lo que tengo en el request es:"+req);
-    console.log("Lo que tengo en el response es:"+res);
-    res.send('con Javascript URL')
+app.get('/Usuario', function (req, res) {
+  res.json(usuarios);
+})
 
-//    console.log('Cabeceras Req');
-//    console.log(req.headers);
-//    console.log('Cabeceras Req');
-//    console.log(res.headers);
-    
-    res.json(usuario);
+app.get('/Usuario/:idUsuario', function (req, res) {
+    var id = req.params.idUsuario;
+    for(var i=0; i<usuarios.length;i++){
+        //console.log("El id del arreglo: "+id+" id del usuario: "+usuar)
+        if(id == usuarios[i].id){
+            res.json(usuarios[i]);  
+        }
+    }
+    res.send('No se encontró el usuario.');
+})
+
+app.post('/TecnologiasWeb', function (req, res) {
     res.append('token', '1234');
-    
+    res.json(usuario);
 })
 
 app.listen(puerto, function () {
