@@ -1,8 +1,21 @@
-var express = require('express')
-var app = express()
+var express = require('express');
+var fs = require('fs');
 
+//function(path,codificacion,funcion)
+
+var ahora = '';
+console.log('antes de leer el archivo');
+
+fs.readFile('./paginas/pagina.html','utf8',function(error, archivoLeido){
+    console.log(error);
+    console.log(archivoLeido);
+    
+});
+
+console.log('Después de leer el archivo');
+
+/**
 var puerto = "6060";
-
 var usuarios = [
     {
         id: 1,
@@ -20,7 +33,6 @@ var usuarios = [
         apellido: 'Clark'
     }
 ]
-
 
 app.get('/', function (req, res) {
   res.send('con Javascript')
@@ -70,3 +82,4 @@ res.json(nuevoUsuario);
 app.listen(puerto, function () {
   console.log('Example app listening on port '+puerto+'!')
 })
+**/
