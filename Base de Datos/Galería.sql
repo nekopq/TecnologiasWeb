@@ -1,3 +1,6 @@
+create database galeria
+use galeria
+
 -- Create schemas
 
 -- Create tables
