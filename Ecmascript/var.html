@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.1/build/pure-min.css">
+  </head>
+  <body>
+    <div id="menu"></div>
+    
+    <h1>Identificadores var, let, const</h1>
+    <p>Existen otros identificadores para almacenar valores: let y const.</p>
+    
+    <h3>Al usar var:</h3>
+    <code>var snack = 'Meow Mix';
+    <br>function getFood(food) {
+    <br>if (food) {
+    <br>    var snack = 'Friskies';
+    <br>    return snack;
+    <br>}
+    <br>return snack;
+    <br>}
+    <br>getFood(false); // undefined</code>
+    
+    <h3>Al usar let:</h3>
+    <code>let snack = 'Meow Mix';
+    <br>function getFood(food) {
+    <br>    if (food) {
+    <br>        let snack = 'Friskies';
+    <br>        return snack;
+    <br>    }
+    <br>    return snack;
+    <br>}
+    <br>getFood(false); // 'Meow Mix'
+    </code>
+    
+    <h3>Al usar let o const:</h3>
+    <code>console.log(x); // ReferenceError: x is not defined
+    <br>let x = 'hi';
+    </code>
+    
+     <script src="prism.js"></script>
+     <script src="script.js"></script>
+  </body>
+</html>

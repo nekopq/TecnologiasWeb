@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.1/build/pure-min.css">
+  </head>
+  <body>
+    <div id="menu"></div>
+    <h1>IIFES (Immediately Invoked Function Expressions)</h1>
+    <p>Un uso común de IIFEs es encerrar dentro de su alcance. En Ecmascript 6, podemos crear alcances basados en bloques, de esta forma no dependemos solo del alcance dentro de las funciones.</p>
+    <br>Usando bloques de ES6:
+    <p></p>
+    <code>(function () {
+    <br>var food = 'Meow Mix';
+    <br>}());
+    <br>console.log(food); // Reference Error
+    </code>
+    <p></p>
+
+    <script src="prism.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
