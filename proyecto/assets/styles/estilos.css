@@ -7,10 +7,6 @@ img{
     width:200px;
 }
 
-body:hover{
-    background-color:antiquewhite;
-}
-
-h1:hover{
+h1:onhover{
     color:darksalmon;
 }

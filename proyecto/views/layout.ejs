@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -29,14 +30,33 @@
     -->
 
     <!--STYLES-->
+    <link rel="stylesheet" href="/styles/estilos.css">
+    <link rel="stylesheet" href="/styles/estilos2.css">
     <link rel="stylesheet" href="/styles/importer.css">
     <!--STYLES END-->
   </head>
 
-  <body>
+  <body>   
+   <nav>
+       <ul class="menu">
+           <li class="menu">
+               <a href="/">Home</a>
+           </li>
+           <li class="menu">
+               <a href="/Ruta1">Ruta1</a>
+           </li>
+           <li class="menu">
+               <a href="/Ruta2">Ruta2</a>
+           </li>
+           <li class="menu">
+               <a href="/Ruta3">Ruta3</a>
+           </li>
+       </ul>
+   </nav>
     <%- body %>
-
-
+<footer>
+    Copyright 2016
+</footer>
 
     <!--
         Client-side Templates
@@ -89,6 +109,7 @@
 
     <!--SCRIPTS-->
     <script src="/js/dependencies/sails.io.js"></script>
+    <script src="/app/app.js"></script>
     <!--SCRIPTS END-->
   </body>
 </html>

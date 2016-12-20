@@ -11,4 +11,10 @@ Sails pide opciones que si no son definidas, son:
 ### El servidor web de sailsjs
 Se encuentra localizado
 
+### Generar controladores Sailsjs
 
+Para generar controladores se utiliza:
+´´´
+> sails generate controller NombreControlador
+
+´´´
