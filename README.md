@@ -51,3 +51,9 @@ Datos:
     apelido:'Sprinkles',
     correo:'bestpet@lps.com'
 }
+
+REST blueprint
+
+    http://localhost:1337/Usuario/create?nombres=Sugar&apellidos=Sprinkles
+    http://localhost:1337/Usuario/destroy?id=3
+    http://localhost:1337/Usuario/update/2?nombres=Twilight&apellidos=Barkle

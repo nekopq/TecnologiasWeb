@@ -36,17 +36,18 @@ module.exports.routes = {
     view: 'homepage'
   },
     
-  '/Ruta1': {
+  '/Sugar': {
       view: 'ruta1'
   },
   
-  '/Ruta2': {
+  '/Sarah': {
       view: 'ruta2'
   },
     
-  '/Ruta3': {
+  '/Litten': {
       view: 'ruta3'
-  }
+  },
+  'get /inicio': 'RutasController.home'
 
   /***************************************************************************
   *                                                                          *
